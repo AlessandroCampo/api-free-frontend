@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: "Fredoka", sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+i:hover {
+    cursor: pointer;
+    color: #B8860B;
+    transition: color 300ms;
+}
+
+/* Works for Firefox */
+/* Width */
+* {
+    scrollbar-width: thin;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    background-color: #4A5568;
+    /* Adjust color as needed */
+    border-radius: 10px;
+}
+
+/* Arrows */
+*::-webkit-scrollbar-button {
+    display: none;
+    /* Hide scrollbar arrows */
+}
+
+/* Works for WebKit based browsers like Chrome and Safari */
+/* Track */
+* {
+    scrollbar-color: #4A5568 transparent;
+    /* Adjust color as needed */
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    background-color: #4A5568;
+    /* Adjust color as needed */
+    border-radius: 10px;
+}
+
+/* Arrows */
+*::-webkit-scrollbar-button {
+    display: none;
+    /* Hide scrollbar arrows */
+}
